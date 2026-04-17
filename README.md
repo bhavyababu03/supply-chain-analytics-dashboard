@@ -1,21 +1,21 @@
 Global Supply Chain Finance Intelligence Dashboard
-📌 Overview
+ Overview
 
 This project is an interactive Power BI dashboard designed to analyze global supply chain performance across finance and logistics operations. It focuses on transforming raw transactional data into meaningful insights that support business decision-making.
 
 The dashboard enables users to monitor revenue trends, evaluate profitability, track delivery performance, and identify operational risks across different regions and customer segments.
 
-🎯 Objectives
+ Objectives
 Analyze revenue, profit, and profit margin
 Monitor delivery performance and delays
 Evaluate discount impact on profitability
 Enable interactive and dynamic analysis
-🧰 Tools & Technologies
+ Tools & Technologies
 Power BI (Dashboard & Visualization)
 DAX (Measures & Calculations)
 Power Query (Data Cleaning & Transformation)
 Star Schema Data Modeling
-🧱 Data Modeling
+ Data Modeling
 
 The dataset is structured using a star schema to ensure better performance and scalability.
 
@@ -23,8 +23,8 @@ Fact Table:
 Contains transactional metrics such as revenue, profit, discount, and delivery details
 Dimension Tables:
 Date | Market | Customer Segment | Product Category | Ship Mode
-📊 Dashboard Structure
-🔹 Overview Page
+📊Dashboard Structure
+ Overview Page
 
 Provides a summary of overall performance.
 
@@ -39,7 +39,7 @@ Insights:
 
 Revenue trends fluctuate across years
 Europe and Pacific Asia contribute major revenue share
-🔹 Logistics Page
+ Logistics Page
 
 Focuses on delivery efficiency and risk.
 
@@ -55,7 +55,7 @@ Insights:
 High late delivery rate indicates operational inefficiencies
 Certain ship modes show higher delay patterns
 Delivery risk varies across months
-🔹 Finance Page
+ Finance Page
 
 Analyzes profitability and revenue distribution.
 
@@ -70,18 +70,18 @@ Insights:
 High discounts do not always improve profit
 Consumer segment dominates revenue
 Regional performance varies significantly
-📌 Key Features
+ Key Features
 Interactive slicers (Year, Category, Segment)
 Cross-filtering across visuals
 KPI cards for quick insights
 Bookmark-based views (e.g., high discount view)
 Dynamic DAX measures
-📈 Key Insights
+ Key Insights
 Europe & Pacific Asia are top-performing regions
 High discounting can reduce profitability
 Logistics inefficiencies exist due to high delay rates
 Consumer segment drives most revenue
-⚙️ How to Use
+ How to Use
 Open the .pbix file in Power BI Desktop
 Use slicers to filter data
 Navigate across:
@@ -89,12 +89,12 @@ Overview
 Logistics
 Finance
 
-🚧 Future Improvements
+ Future Improvements
 Add forecasting models
 Integrate real-time data
 Enhance anomaly detection
 Deploy via Power BI Service
-👤 Author
+ Author
 
 Bhavya Babu
 Data Analyst
